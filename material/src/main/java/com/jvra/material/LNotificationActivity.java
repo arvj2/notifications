@@ -32,7 +32,7 @@ public class LNotificationActivity extends Activity {
     }
 
 
-    private class FragmentTabListener extends ActionBar.TabListener{
+    private class FragmentTabListener implements ActionBar.TabListener{
 
         private Fragment fragment;
 
